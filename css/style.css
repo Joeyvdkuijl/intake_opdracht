@@ -1,0 +1,142 @@
+html{
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'Montserrat-semi';
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-reg';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+#kamerplant {
+    width: auto;
+    height: auto;
+    color: #212121;
+    font-family: Montserrat-semi;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50.4px;
+    margin: 0;
+  }
+#wijverkope {
+    width: auto;
+    height: auto;
+    color: #212121;
+    font-family: Montserrat-reg;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33.6px;
+  }
+  
+
+#group21 {
+    width: 850px;
+    height: 223px;
+}
+
+#daco_55708 {
+    width: 283.4px;
+    height: 327px;
+    display: block;
+    margin-left: 1em;
+    margin-right: auto;
+    /* width: 50%; */
+}
+
+#group13 {
+    width: 1200px;
+    height: 327px;
+}
+
+#rectangle {
+    width: 450px;
+    height: 283px;
+    border-radius: 25px;
+    background: #e0f1bb;
+    margin-top: 3em;
+    position: absolute;
+    z-index: -1;
+}
+
+#text_div{
+    display: block;
+    margin-top: 4.5em;
+}
+
+
+
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* width: 100%; */
+}
+
+.container {
+    margin: 50px auto 0;
+}
+.container {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 375px){
+    #rectangle {
+        width: 360px;
+    }
+}
+
+
+@media only screen and (min-width: 768px){
+    .content {
+    grid-template-columns: .4fr 1fr;;
+    }
+    .container {
+        padding: 20px;
+    }
+    #kamerplant{
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .container {
+        padding: 20px;
+    }
+    .content {
+        grid-template-columns: .4fr 1fr;
+    }
+    #rectangle {
+        width: 450px;
+        margin-left: 1em;
+    }
+    #daco_55708 {
+        width: 283.4px;
+        height: 327px;
+        display: block;
+        margin-left: 3em;
+        margin-right: 2em;
+    }
+    #kamerplant {
+        width: 850px;
+        height: 112px;
+        margin-right: 60px;
+      }
+    #wijverkope {
+        width: 850px;
+        height: 101px;
+        margin-right: 60px;
+      }
+      
+}
+
